@@ -1,0 +1,17 @@
+set={'python','c','c++','javascript','HTML','AngulaR js'}
+print(set)
+print(type(set))
+print('python' in set)
+set.add('jython')
+print(set)
+set.add('nodejs')
+print(set)
+set.update(['pypy','iron python'])
+print(set)
+set.remove('pypy')
+print(set)
+set.pop()
+print(set)
+set.discard('c')
+print(set)
+#set methods

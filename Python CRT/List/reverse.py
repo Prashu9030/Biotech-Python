@@ -1,0 +1,10 @@
+Num1=[1,2,3,4,5,6,7,8,9,10]
+print(Num1)
+Num2=[33,12,13,14,15,16,17]
+print(Num2)
+Num1.extend(Num2)
+print(Num1)
+Num1.sort()
+print(Num1)
+Num1.sort(reverse=True)
+print(Num1)

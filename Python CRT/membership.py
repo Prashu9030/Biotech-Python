@@ -1,0 +1,10 @@
+a=['hi','hello','how are you?','pyhton','java','c++','javascript','ruby','php']
+print('hi' in a)
+print('python' in a)
+print('java' not in a)
+print('c++' not in a)
+print('javascript' in a)
+print('ruby' not in a)
+print('php' in a)
+print('c#' not in a)
+print('c#' not in a)

@@ -1,0 +1,21 @@
+Jobrole={101:'Front end Developer',102:'Back end Developer',103:'SQL Administration'}
+print(Jobrole)
+print(type(Jobrole))
+print(Jobrole[101])
+print(Jobrole[102])
+print(Jobrole[103])
+Jobrole[101]='UI/UX Developer'
+print(Jobrole)
+Jobrole[104]='data engineering'
+print(Jobrole)
+Jobrole.pop(101)
+print(Jobrole)
+print(len(Jobrole))
+print(Jobrole.keys())
+print(Jobrole.items())
+print(Jobrole.values())
+print(Jobrole.copy())
+Jobrole.update({105:'HTML'})
+print(Jobrole)
+print(Jobrole.fromkeys([101,105],'unknown'))
+print(Jobrole)

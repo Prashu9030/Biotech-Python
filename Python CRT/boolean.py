@@ -1,0 +1,15 @@
+print(bool(None))  # False
+print(bool({}))  
+print(bool(False))
+print(bool(()))
+print(bool(0))
+print(bool(''))  # False    
+print(bool(0.0))  
+print(bool(range(0)))  
+print(bool([]))  
+print(bool(set()))
+print(bool(True+True))  
+print(bool(True+False)) 
+print(bool(True*True))
+print(bool(0*True))
+print(bool(1*True))

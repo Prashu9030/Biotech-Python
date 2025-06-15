@@ -1,0 +1,9 @@
+num=10
+print(num)
+print(type(num))
+Num=10,25
+print(Num)
+print(type(Num))
+Num=10+25
+print(Num)
+print(type(Num))

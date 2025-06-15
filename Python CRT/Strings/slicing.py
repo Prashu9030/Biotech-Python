@@ -1,0 +1,12 @@
+list="BIO TECHNOLOGY"
+print(list)
+print(list[0:5])
+print(list[-12:-15:-1])
+print(list[4:8])
+print(list[4:10])
+print(list[-1:-11:-1])
+print(list[::-1])
+print(list[-7:-12:-1])
+print(list[10:15])
+print(list[0:15:2])
+print(list[0:15:4])
